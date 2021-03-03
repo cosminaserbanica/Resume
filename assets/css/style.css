@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700 |Exo:100,200,300,400,500,600,700');
+
+/*--------------------------------Colors */
+.bg-color-name-title {
+    background-color: #5c080c;
+}
+
+.ui-menu-color-home {
+    background-color: #585553;
+}
+
+.ui-menu-color-resume {
+    background-color: #aa91a2;
+}
+
+.ui-menu-color-contact {
+    background-color: #bd9a82;
+}
+
+.ui-menu-color-download {
+    background-color: #e4dd7a;
+}
+/*--------------------------------Heading */
+
+header {
+    margin: 0;
+}
+
+.heading {
+    margin-left: 50px;
+}
+
+.logo {
+    background: url("../images/cosmina.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 360px;
+    transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+}
+
+.name {
+    font-family: "Exo", sans-serif;
+    font-weight: 300;
+    font-size: 46px;
+    margin-top: 50px;
+    color:rgb(207, 194, 194);
+}
+
+.title {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-size:28px;
+    margin-top: 10px;
+    margin-bottom: 50px;
+    color:rgb(207, 194, 194);
+    margin-left: 80px;
+}
+
+.list-inline-item:not(:last-child) {
+    margin:0;
+}
+
+.menucontainer {
+    font-size: 0;
+}
+
+#nav li {
+    font-size:14px;
+    padding:0;
+    
+}
+
+

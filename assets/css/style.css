@@ -266,10 +266,65 @@ footer {
 .progress {
     position: relative;
     height: 25px;
-    margin-bottom: 4px;
+    margin-bottom: 8px;
 }
 
-.progress-type {
+
+.progress-span {
+    float:left;
+    margin: 5px;
     position: absolute;
-    
+}
+
+.progress-bar {
+    background-color:#5c080c;
+}
+
+#first-bar {
+    margin-top: 50px;
+}
+
+#second-bar {
+    margin-bottom: 15px;
+}
+
+.timeline-item {
+    padding: 4em 2em 0em 2em;
+    position: relative;
+    color:black;
+    border-left: 1px solid;
+}
+
+.timeline-item p {
+    padding: 0;
+    margin: 0;
+}
+
+.timeline-item:before {
+    content: attr(data-dates);
+    position: absolute;
+    left: 2.5em;
+    top: 3em;
+    display: block;
+    font-family: "Exo", sans-serif;
+    font-weight: 500;
+    font-size: 0.8em;
+    padding: 0;
+    margin: 0;
+}
+
+.timeline-item:after {
+    width: 12px;
+    height: 12px;
+    display: block;
+    top: 2.4em;
+    position: absolute;
+    left: -6px;
+    border-radius: 12px;
+    content: '';
+    background-color: black;
+}
+
+#timeline-last {
+    margin-bottom: 30px;
 }
